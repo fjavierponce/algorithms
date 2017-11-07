@@ -12,10 +12,10 @@ int main(int argc, const char * argv[]) {
     const size_t n = 2;
     
     // Create the array
-    int ** array = new int * [n];
+    size_t ** array = new size_t * [n];
     
     for(size_t i=0 ; i<n ; i++)
-        array[i] = new int[n];
+        array[i] = new size_t[n];
     
     // Fill the array
     for(size_t i=0 ; i<n ; i++)
